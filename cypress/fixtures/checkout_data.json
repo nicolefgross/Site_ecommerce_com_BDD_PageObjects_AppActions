@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Pedro",
+        "lastname": "Silva",
+        "company": "Ferreira e Silva Moda Têxtil",
+        "country": "Brasil",
+        "address1": "Rua Venâncio Aires",
+        "address2": "1023",
+        "city": "Canoas",
+        "state": "Rio Grande do Sul",
+        "postcode": "98562-315",
+        "phone": "998742563",
+        "email": "pedrosilva@gloglo.com"
+    }
+]
