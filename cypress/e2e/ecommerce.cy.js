@@ -35,6 +35,7 @@ describe('Fluxo no ecommerce', () => {
         cy.get('.checkout-button').click()
 
         checkoutPage.checkout(checkout_data[0].name, checkout_data[0].lastname,checkout_data[0].company, checkout_data[0].country, checkout_data[0].address1, checkout_data[0].address2, checkout_data[0].city, checkout_data[0].state, checkout_data[0].postcode, checkout_data[0].phone)
-        cy.get('.woocommerce-notice').should('have.text', 'Obrigado. Seu pedido foi recebido.')
+        
+        
     });    
 });

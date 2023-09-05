@@ -9,7 +9,7 @@ module.exports = defineConfig({
     },
 
     baseUrl: 'http://lojaebac.ebaconline.art.br',
-    specPattern: '**/*.feature',
+    specPattern: '**/*.js',
 
   },
 });

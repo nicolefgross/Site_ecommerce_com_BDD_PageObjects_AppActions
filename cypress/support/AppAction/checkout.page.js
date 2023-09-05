@@ -13,7 +13,7 @@ class checkoutPage {
     get #state() {return cy.get('#select2-billing_state-container')}
     get #postcode() {return cy.get('#billing_postcode')}
     get #phone() {return cy.get('#billing_phone')}
-    get #checkbox() {return cy.get('[type="checkbox"]') } //.check()
+    get #checkbox() {return cy.get('[type="checkbox"]') } 
     get #order() {return cy.get('#place_order')}
    
     checkout(name, lastname, company, country, address1, address2, city, state, postcode, phone) {
