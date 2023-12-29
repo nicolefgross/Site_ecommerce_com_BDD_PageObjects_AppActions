@@ -15,7 +15,8 @@ module.exports = defineConfig({
       reportDir: "mochawesome-report",
       html: true,
       json: true
-    } 
+    },
+    video: false
 
   },
 });
