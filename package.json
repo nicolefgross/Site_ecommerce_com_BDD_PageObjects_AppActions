@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run cy:run",
+    "start": "npx serverest",
+    "cy:run": "npx cypress run",
+    "Cy:run-ci": "start-server-and-test start http://lojaebac.ebaconline.art.br test "
   },
   "keywords": [],
   "author": "",
@@ -16,7 +19,9 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mochawesome": "^7.1.3",
+    "start-server-and-test": "^2.0.3"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,

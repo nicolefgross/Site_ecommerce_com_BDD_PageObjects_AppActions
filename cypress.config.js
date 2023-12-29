@@ -10,6 +10,12 @@ module.exports = defineConfig({
 
     baseUrl: 'http://lojaebac.ebaconline.art.br',
     specPattern: '**/*.feature',
+    reporter: "mochawesome",
+    reporterOptions: {
+      reportDir: "mochawesome-report",
+      html: true,
+      json: true
+    } 
 
   },
 });
