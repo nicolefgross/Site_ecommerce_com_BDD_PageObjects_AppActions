@@ -21,7 +21,7 @@ jobs:
         continue-on-error: true
         with:
           install-command: npm install
-          browser: chrome
+          browser: electron
       - name: Publish Report
         uses: peaceiris/actions-gh-pages@v3
         with:
